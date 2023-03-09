@@ -11,7 +11,7 @@ dependencies {
 gradlePlugin {
     plugins {
         create("akore.android-library") {
-            id = "io.github.akore.infrared.kotlin.lib"
+            id = "io.github.akore.infrared.android.lib"
             implementationClass = "io.github.akore.infrared.androidlib.AndroidLibraryPlugin"
         }
     }
